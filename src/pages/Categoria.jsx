@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import "../assets/css/blog.css"
 import { buscar } from '../api/api'
-import ListCategories from '../components/ListCategories'
-import ListPosts from '../components/ListPosts'
-import SubCategoria from './SubCategoria'
+import ListCategories from '../components/ListCategories.jsx'
+import ListPosts from '../components/ListPosts.jsx'
+import SubCategoria from './SubCategoria.jsx'
 import { useParams, Routes, Route, Link, useResolvedPath } from 'react-router-dom'
 
 const Categoria = () => {
