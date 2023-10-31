@@ -1,5 +1,5 @@
-import ListPosts from "../components/ListPosts"
-import ListCategories from "../components/ListCategories"
+import ListPosts from "../components/ListPosts.jsx"
+import ListCategories from "../components/ListCategories.jsx"
 
 const Home = () => {
   return (
